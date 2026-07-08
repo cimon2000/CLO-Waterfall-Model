@@ -2,9 +2,7 @@
 ================================================================================
 CLO WATERFALL MODEL
 ================================================================================
-Author  : Rishi Bhardwaj
-GitHub  : github.com/rishibhardwaj
-LinkedIn: linkedin.com/in/rishibhardwaj
+Author  : Simon Njeri
 
 Description:
     A Collateralized Loan Obligation (CLO) waterfall model that simulates
@@ -25,7 +23,6 @@ Background:
       4. OC/IC tests protect senior noteholders — if breached, cashflow is
          redirected to pay down senior notes instead of flowing to junior/equity
 
-    Real-world experience: BNY Mellon Corporate Trust / Apex Fund Services
     tools referenced: Solvas, ATE Dashboard, Deal Manager, GCM
 ================================================================================
 """
@@ -78,7 +75,7 @@ class CLODeal:
     Overcollateralization = $400M pool / $340M notes = 117.6%
     """
     def __init__(self):
-        self.deal_name            = "Rishi CLO 2024-1, Ltd."
+        self.deal_name            = "Simon CLO 2024-1, Ltd."
         self.pool_balance         = 400.0    # $M total collateral
         self.sofr                 = 0.0530   # 5.30% SOFR
         self.was                  = 0.0385   # Weighted Avg Spread on loans (385 bps)
@@ -373,7 +370,7 @@ def plot_results(base_cf, stress_cf, severe_cf, base_tests, deal):
     """Generates four charts summarising CLO performance across scenarios."""
 
     fig, axes = plt.subplots(2, 2, figsize=(14, 10))
-    fig.suptitle("CLO Waterfall Model — Rishi Bhardwaj (2024)", fontsize=14, fontweight="bold", y=0.98)
+    fig.suptitle("CLO Waterfall Model — Simon Njeri (2024)", fontsize=14, fontweight="bold", y=0.98)
 
     colors = {"Base Case": "#2563EB", "Stress": "#D97706", "Severe Stress": "#DC2626"}
 
@@ -449,8 +446,8 @@ def plot_results(base_cf, stress_cf, severe_cf, base_tests, deal):
 
 def main():
     print("\n" + "="*72)
-    print("  CLO WATERFALL MODEL — Rishi Bhardwaj")
-    print("  Rishi CLO 2024-1, Ltd. | Pool: $400M | Tranches: A/B/C/D/E + Equity")
+    print("  CLO WATERFALL MODEL — Simon Njeri")
+    print("  Simon CLO 2024-1, Ltd. | Pool: $400M | Tranches: A/B/C/D/E + Equity")
     print("="*72)
 
     deal = CLODeal()

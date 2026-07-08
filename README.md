@@ -1,7 +1,7 @@
 # CLO Waterfall Model
 
-**Author:** Rishi Bhardwaj  
-**Background:** 2 years hands-on experience in CLO/CDO administration at BNY Mellon (Corporate Trust) and Apex Fund Services — working directly with syndicated loan portfolios, OC/IC test monitoring, and institutional clients including BlackRock.
+**Author:** Simon Njeri  
+
 
 ---
 
@@ -86,12 +86,6 @@ Annual percentage of the loan pool assumed to default. Recovery rate determines 
 Secured Overnight Financing Rate — replaced LIBOR as the floating rate benchmark for leveraged loans and CLO notes.
 
 ---
-
-## Real-World Context
-
-This model reflects structures I worked with directly at:
-- **BNY Mellon Corporate Trust** (June 2024 – June 2025) — CLO/CDO administration, Solvas platform, ATE mapping, OC/IC test monitoring
-- **Apex Fund Services** (September 2025 – Present) — Syndicated loan operations, trade processing, portfolio setup, fund administration
 
 
 
